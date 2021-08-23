@@ -1,0 +1,121 @@
+{
+	"pages": [ {
+            "path" : "pages/Home/Home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Category/Category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+                "enablePullDownRefresh": true,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Live/Live",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "游戏直播",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Hero/Hero",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/User/User",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Rooms/Rooms",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#DCDFE6",
+		"backgroundColor": "#DC143C",
+		"app-plus": {
+			"background": "#DC143C"
+		}
+	},
+	"tabBar": {
+	    "color": "#8A8A8A",
+	    "selectedColor": "#D4237A",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/Home/Home",
+	        "iconPath": "static/tabbar/normal/home.png",
+	        "selectedIconPath": "static/tabbar/selected/home.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/Category/Category",
+	        "iconPath": "static/tabbar/normal/fenlei.png",
+	        "selectedIconPath": "static/tabbar/selected/fenlei.png",
+	        "text": "分类"
+	    },{
+	        "pagePath": "pages/Live/Live",
+	        "iconPath": "static/tabbar/normal/game.png",
+	        "selectedIconPath": "static/tabbar/selected/game.png",
+	        "text": "游戏直播"
+	    },{
+	        "pagePath": "pages/Hero/Hero",
+	        "iconPath": "static/tabbar/normal/yx.png",
+	        "selectedIconPath": "static/tabbar/selected/yx.png",
+	        "text": "英雄"
+	    },{
+	        "pagePath": "pages/User/User",
+	        "iconPath": "static/tabbar/normal/user.png",
+	        "selectedIconPath": "static/tabbar/selected/user.png",
+	        "text": "我的"
+	    }]
+	}
+}
